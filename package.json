@@ -1,0 +1,42 @@
+{
+  "name": "koa-fcm",
+  "description": "koa helper module to interact with Google's Firebase Cloud Messaging (FCM).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/detohm/koa-fcm.git"
+  },
+  "main": "lib/fcm.js",
+  "files": [
+    "lib"
+  ],
+  "author": "Attaphong Rattanaveerachanon <ohm.attaphong@gmail.com>",
+  "version": "0.1.0",
+  "keywords": [
+    "koa",
+    "koa-fcm",
+    "fcm",
+    "notification",
+    "web notification",
+    "push notification",
+    "firebase",
+    "firebase cloud messaging",
+    "google",
+    "cloud messaging"
+  ],
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+  
+  },
+  "scripts": {
+
+  },
+  "engines": {
+    "node": "> 0.12"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/detohm/koa-fcm/issues"
+  }
+}
