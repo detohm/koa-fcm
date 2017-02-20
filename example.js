@@ -19,12 +19,14 @@ app.use(function *() {
     };
 
     try{
-        var response = yield fcm.send(payload);
-        console.log({response: response});
-    }
-    catch(err) {
-        console.log({err: err});
-    }
+
+    	var response = yield fcm.send(payload); 
+    	console.log(response);
+    	
+ 
+	} catch(e) {
+		
+	}
 });
  
 app.listen(process.env.PORT || 8070);
