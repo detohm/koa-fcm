@@ -4,6 +4,10 @@ koa-fcm
 Very simple koa helper module to interact with Google's Firebase Cloud Messaging (FCM).
 The yield-able api call for using in koa middleware.
 
+## Install
+```
+npm install --save koa-fcm
+```
 
 ##Usage
 Require koa first
@@ -12,7 +16,7 @@ Simple example using koa-request in koa:
 
 ```js
 var koa = require('koa');
-var FCM = require('./lib/fcm');
+var FCM = require('koa-fcm');
  
 var app = koa();
  
