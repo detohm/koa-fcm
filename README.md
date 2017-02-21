@@ -10,9 +10,9 @@ npm install --save koa-fcm
 ```
 
 ##Usage
-Require koa first
+Require koa first.
 
-Simple example using koa-request in koa:
+Simple example using koa-fcm in koa:
 
 ```js
 var koa = require('koa');
